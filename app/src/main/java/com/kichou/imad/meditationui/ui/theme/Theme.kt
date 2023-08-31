@@ -18,6 +18,9 @@ import androidx.core.view.WindowCompat
 
 @Composable
 fun MeditationUITheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable() () -> Unit) {
+
+
+
     MaterialTheme(
         typography = Typography,
         shapes = Shapes,
